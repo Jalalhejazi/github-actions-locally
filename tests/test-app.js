@@ -22,3 +22,22 @@ describe('GET /', () => {
       });
   });
 });
+
+
+
+describe('GET /version', () => {
+  it('Response with availability and Semantic Version', (done) => {
+    chai.request(app)
+      .get('/version')
+      .end((err, res) => {
+        
+        should.not.exist(err);
+        res.status.should.equal(200);
+        res.text.should.equal('1.0.0');
+
+        done();
+      });
+  });
+});
+
+
