@@ -23,5 +23,18 @@
     "start": "node index.js",
     "test": "mocha ./tests --recursive",
     "lint": "eslint ."
-  }
+  },
+  "description": "Running GitHub Actions --> Same YAML, Everywhere\r - Locally \r - Continuous Build (Shared build on-premises)\r - Remote (Global build Cloud)",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jalalhejazi/github-actions-locally.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Jalalhejazi/github-actions-locally/issues"
+  },
+  "homepage": "https://github.com/Jalalhejazi/github-actions-locally#readme"
 }
