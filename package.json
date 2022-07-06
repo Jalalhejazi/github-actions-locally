@@ -22,12 +22,10 @@
   "scripts": {
     "start": "node index.js",
     "test": "mocha ./tests --recursive",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "anything" :"echo 'I can execute anything from the terminal' "
   },
-  "description": "Running GitHub Actions --> Same YAML, Everywhere\r - Locally \r - Continuous Build (Shared build on-premises)\r - Remote (Global build Cloud)",
-  "directories": {
-    "test": "tests"
-  },
+  "description": "Running YAML Actions Everywhere",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jalalhejazi/github-actions-locally.git"
