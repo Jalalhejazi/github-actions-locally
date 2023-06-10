@@ -90,3 +90,8 @@ Flags:
   -w, --watch                                             watch the contents of the local repo and run when files change
   -W, --workflows string                                  path to workflow file(s) (default "./.github/workflows/")
 ```
+
+
+## GitHub Copilot in 7 Minutes
+
+- https://www.youtube.com/watch?v=hPVatUSvZq0
