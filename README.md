@@ -94,4 +94,4 @@ Flags:
 
 ## GitHub Copilot in 7 Minutes
 
-- https://www.youtube.com/watch?v=hPVatUSvZq0
+https://www.youtube.com/watch?v=hPVatUSvZq0
